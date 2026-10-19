@@ -1,7 +1,7 @@
 import { createClient } from "../../lib/supabase/server";
 import SignOutButton from "../components/SignOutButton";
-
-export const metadata = { title: "Access denied · NYC Spots Admin" };
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Access denied · NYC Spots Admin" };
 
 export default async function DeniedPage() {
     const supabase = await createClient();

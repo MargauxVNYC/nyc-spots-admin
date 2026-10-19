@@ -1,5 +1,8 @@
 import { requireAdmin } from "../lib/admin";
 
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Overview · NYC Spots Admin" };
+
 export const dynamic = "force-dynamic";
 
 export default async function Overview() {

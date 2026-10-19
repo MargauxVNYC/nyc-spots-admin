@@ -1,6 +1,6 @@
 import SignInButton from "../components/SignInButton";
-
-export const metadata = { title: "Sign in · NYC Spots Admin" };
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Sign in · NYC Spots Admin" };
 
 export default function LoginPage() {
     return (
