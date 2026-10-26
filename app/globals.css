@@ -269,3 +269,47 @@ img { display: block; max-width: 100%; }
   .side-group-label { display: none; }
   .access-tags { margin-top: 0; }
 }
+
+/* ---------- TA feedback: tighter admin layout ---------- */
+.topbar { padding: 8px 24px; }
+.content { padding: 18px 24px; }
+
+.sidebar { padding: 14px 10px; gap: 12px; }
+.brand { font-size: 15px; }
+.side-group { margin-bottom: 4px; }
+.side-group-label { margin: 8px 10px 2px; }
+.side-link { padding: 5px 10px; font-size: 13px; }
+
+.eyebrow { font-size: 11px; }
+.title { font-size: 24px; margin: 4px 0 4px; }
+.page-head { margin-bottom: 12px; gap: 12px; }
+.access-tags { margin-top: 18px; }
+
+.panel { padding: 14px 16px; }
+.panel-title { font-size: 14px; margin-bottom: 10px; }
+.stat-row { margin: 14px 0 12px; gap: 10px; }
+.stat-value { font-size: 26px; }
+.stat-label { margin-top: 5px; font-size: 10px; }
+.grid-wide, .grid-2, .grid-3 { gap: 12px; }
+.grid-2, .grid-3 { margin-top: 12px; }
+
+.chart { height: 150px; }
+.donut { width: 130px; height: 130px; }
+.donut-hole { width: 88px; height: 88px; }
+.donut-hole b { font-size: 22px; }
+.vibe-row { margin-bottom: 10px; }
+.rank-row { padding: 6px 0; }
+.spot-quote { font-size: 15px; }
+
+.toolbar { margin-bottom: 10px; gap: 8px; }
+.input, .select { padding: 7px 10px; font-size: 13px; }
+.data { font-size: 13px; }
+.data th { padding: 9px 12px; }
+.data td { padding: 8px 12px; }
+.thumb { width: 44px; height: 44px; }
+.thumb-cell { width: 56px; }
+.btn { padding: 7px 13px; font-size: 13px; }
+.btn-sm { padding: 4px 9px; font-size: 12px; }
+
+.image-card img { height: 150px; }
+.image-body { padding: 10px 12px; gap: 6px; }
